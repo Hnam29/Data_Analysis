@@ -696,24 +696,24 @@ if option == 'Data Storytelling📶':
             caption='Source: internet..',
             use_column_width=True)
 
-annotated_text(
-        "This is a   ",
-        annotation("DATA", "ANALYTICS", font_family="Comic Sans MS", border="2px dashed blue"),
-        " field that consists of technical skills:  ",
-        ("Data","Cleaning"),
-        ("Data","Wrangling"),
-        ("Data","Mining"),
-        ("Data","Manipulating/Munging. \n"),
-        " \n\n Besides,",
-        ("Data", "Warehousing"),
-        ("Data", "Modeling"),
-        "and also",
-        ("Data", "Visualization"),
-        "play important roles in making a data analyst. ",
-        " \n Here's a quote for you, warrior: ",
-        annotation("DATA", "ANALYST", font_family="Comic Sans MS", border="3px dotted red"),
-        "turns raw data into valuable insights, unlocking the secrets hidden within the numbers.",
-    )    
+    annotated_text(
+            "This is a   ",
+            annotation("DATA", "ANALYTICS", font_family="Comic Sans MS", border="2px dashed blue"),
+            " field that consists of technical skills:  ",
+            ("Data","Cleaning"),
+            ("Data","Wrangling"),
+            ("Data","Mining"),
+            ("Data","Manipulating/Munging. \n"),
+            " \n\n Besides,",
+            ("Data", "Warehousing"),
+            ("Data", "Modeling"),
+            "and also",
+            ("Data", "Visualization"),
+            "play important roles in making a data analyst. ",
+            " \n Here's a quote for you, warrior: ",
+            annotation("DATA", "ANALYST", font_family="Comic Sans MS", border="3px dotted red"),
+            "turns raw data into valuable insights, unlocking the secrets hidden within the numbers.",
+        )    
 
     col_dst1.graphviz_chart('''
     digraph {
