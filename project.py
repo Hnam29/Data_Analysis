@@ -409,10 +409,10 @@ column_greeting2.write(f'First login at: {current_datetime} :volcano:')
 st.divider()
 
 # Decoration: get the image source 
-image = Image.open('/Users/vuhainam/Desktop/project/survey.jpg')
-image1 = Image.open('/Users/vuhainam/Desktop/project/da_image1.jpeg')
-image2 = Image.open('/Users/vuhainam/Desktop/project/da_image2.jpeg')
-image3 = Image.open('/Users/vuhainam/Desktop/project/da_process.jpeg')
+image = Image.open('https://github.com/Hnam29/Data_Analysis/blob/master/survey.jpg')
+image1 = Image.open('https://github.com/Hnam29/Data_Analysis/blob/master/da_image1.jpeg')
+image2 = Image.open('https://github.com/Hnam29/Data_Analysis/blob/master/da_image2.jpeg')
+image3 = Image.open('https://github.com/Hnam29/Data_Analysis/blob/master/da_process.jpeg')
 
 st.sidebar.image(image, width=200)
 with st.sidebar:
