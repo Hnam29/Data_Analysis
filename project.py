@@ -421,24 +421,7 @@ with st.sidebar:
 column_header1, column_header2, column_header3 = st.columns([3,5,3])
 column_header2.header(option) 
 
-annotated_text(
-        "This is a   ",
-        annotation("DATA", "ANALYTICS", font_family="Comic Sans MS", border="2px dashed blue"),
-        " field that consists of technical skills:  ",
-        ("Data","Cleaning"),
-        ("Data","Wrangling"),
-        ("Data","Mining"),
-        ("Data","Manipulating/Munging. \n"),
-        " \n\n Besides,",
-        ("Data", "Warehousing"),
-        ("Data", "Modeling"),
-        "and also",
-        ("Data", "Visualization"),
-        "play important roles in making a data analyst. ",
-        " \n Here's a quote for you, warrior: ",
-        annotation("DATA", "ANALYST", font_family="Comic Sans MS", border="3px dotted red"),
-        "turns raw data into valuable insights, unlocking the secrets hidden within the numbers.",
-    )
+
 col1, col2 = st.columns([3,1])
 # Decoration: show the image
 # col2.image(image,
@@ -713,6 +696,24 @@ if option == 'Data Storytelling📶':
             caption='Source: internet..',
             use_column_width=True)
 
+annotated_text(
+        "This is a   ",
+        annotation("DATA", "ANALYTICS", font_family="Comic Sans MS", border="2px dashed blue"),
+        " field that consists of technical skills:  ",
+        ("Data","Cleaning"),
+        ("Data","Wrangling"),
+        ("Data","Mining"),
+        ("Data","Manipulating/Munging. \n"),
+        " \n\n Besides,",
+        ("Data", "Warehousing"),
+        ("Data", "Modeling"),
+        "and also",
+        ("Data", "Visualization"),
+        "play important roles in making a data analyst. ",
+        " \n Here's a quote for you, warrior: ",
+        annotation("DATA", "ANALYST", font_family="Comic Sans MS", border="3px dotted red"),
+        "turns raw data into valuable insights, unlocking the secrets hidden within the numbers.",
+    )    
 
     col_dst1.graphviz_chart('''
     digraph {
